@@ -1,0 +1,12 @@
+LOAD DATA LOCAL INFILE '/Users/dmitrilimonov/Desktop/cc_carrier_info.csv' 
+INTO TABLE CC_CARRIER_INFO 
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n';
+
+
+LOAD DATA LOCAL INFILE '/Users/dmitrilimonov/Desktop/cc_capacity_info.csv' 
+INTO TABLE CC_CAPACITY_INFO 
+FIELDS TERMINATED BY ',' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n';
